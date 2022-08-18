@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T16:18:22.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eZGk7ZdxMc3eNvY0Pxbm" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-18T16:19:53.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EmVCJL2-U-X1kWMp90Cr" version="20.2.4" type="github" pages="2">
   <diagram id="shwt-UwQIRlnDQt5FEmr" name="Page-1">
     <mxGraphModel dx="1826" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TWfw_psaHM4cEn67Q7gZ" name="Page-2">
-    <mxGraphModel dx="1504" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1598" dy="1853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -318,7 +318,7 @@
           <mxGeometry x="290" y="70" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PjNGCH7ikaBztpw5diRe-2" value="Mettre en place le pipeline CD" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="190" width="90" height="40" as="geometry" />
+          <mxGeometry x="295" y="220" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PjNGCH7ikaBztpw5diRe-3" value="Récupérer l&#39;URL de test" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="350" width="90" height="40" as="geometry" />
@@ -344,29 +344,47 @@
             <mxPoint x="290" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PjNGCH7ikaBztpw5diRe-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="PjNGCH7ikaBztpw5diRe-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PjNGCH7ikaBztpw5diRe-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="150" as="sourcePoint" />
             <mxPoint x="294.999999999995" y="209.40999999999985" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PjNGCH7ikaBztpw5diRe-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="PjNGCH7ikaBztpw5diRe-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PjNGCH7ikaBztpw5diRe-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="360" as="sourcePoint" />
-            <mxPoint x="480" y="310" as="targetPoint" />
+            <mxPoint x="380" y="90" as="sourcePoint" />
+            <mxPoint x="430" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PjNGCH7ikaBztpw5diRe-12" value="Gérer le fichier de déploiement de l&#39;application" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="30" width="170" height="40" as="geometry" />
+          <mxGeometry x="540" y="-25" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PjNGCH7ikaBztpw5diRe-13" value="Configurer k8s load balancer&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="100" width="170" height="40" as="geometry" />
+          <mxGeometry x="540" y="45" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PjNGCH7ikaBztpw5diRe-14" value="Configurer k8s high availability" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="160" width="170" height="40" as="geometry" />
+          <mxGeometry x="540" y="105" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PjNGCH7ikaBztpw5diRe-15" value="Configurer k8s Scalability" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="220" width="170" height="40" as="geometry" />
+          <mxGeometry x="540" y="165" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PjNGCH7ikaBztpw5diRe-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="90" as="sourcePoint" />
+            <mxPoint x="480" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PjNGCH7ikaBztpw5diRe-1" target="PjNGCH7ikaBztpw5diRe-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="110" as="sourcePoint" />
+            <mxPoint x="490" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PjNGCH7ikaBztpw5diRe-1" target="PjNGCH7ikaBztpw5diRe-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="90" as="sourcePoint" />
+            <mxPoint x="470" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
