@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T16:06:41.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mGHxBerdV-XYCkVgJr7B" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-18T16:18:22.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eZGk7ZdxMc3eNvY0Pxbm" version="20.2.4" type="github" pages="2">
   <diagram id="shwt-UwQIRlnDQt5FEmr" name="Page-1">
-    <mxGraphModel dx="1278" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
           <mxGeometry x="570" y="410" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wUWEheBWgp-jXRAvahCD-42" value="Analyse de sécurité" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="280" width="90" height="40" as="geometry" />
+          <mxGeometry x="660" y="270" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wUWEheBWgp-jXRAvahCD-43" value="Stockage des artifacts" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="460" width="90" height="40" as="geometry" />
@@ -305,6 +305,69 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4AukdWFLXJFj3s-flXzU-1" value="Opérationnel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AukdWFLXJFj3s-flXzU-2" value="Testeur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AukdWFLXJFj3s-flXzU-3" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-1" value="Gérer k8s" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-2" value="Mettre en place le pipeline CD" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-3" value="Récupérer l&#39;URL de test" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-4" value="Récupérer l&#39;URL de production" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PjNGCH7ikaBztpw5diRe-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="530" as="sourcePoint" />
+            <mxPoint x="190" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.99999999999977" y="369.40999999999997" as="sourcePoint" />
+            <mxPoint x="289.999999999995" y="369.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.99999999999977" y="149.99999999999986" as="sourcePoint" />
+            <mxPoint x="290" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="150" as="sourcePoint" />
+            <mxPoint x="294.999999999995" y="209.40999999999985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-12" value="Gérer le fichier de déploiement de l&#39;application" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-13" value="Configurer k8s load balancer&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-14" value="Configurer k8s high availability" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PjNGCH7ikaBztpw5diRe-15" value="Configurer k8s Scalability" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="170" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
