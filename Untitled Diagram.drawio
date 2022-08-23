@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T11:37:27.050Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Shj_Uuigcd6pBIO8iCry" version="20.2.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-23T11:41:24.488Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DBneB1kojbLLneNj3V2d" version="20.2.6" type="github" pages="6">
   <diagram id="shwt-UwQIRlnDQt5FEmr" name="Page-1">
     <mxGraphModel dx="1137" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -851,10 +851,10 @@
         <mxCell id="QV0GpsqDu3hCWvN-3MTR-5" value="Mettre en place un cluster&amp;nbsp;&lt;br&gt;d&#39;orchestration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="242" y="-3390" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QV0GpsqDu3hCWvN-3MTR-6" value="Surveiller les pipelines&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QV0GpsqDu3hCWvN-3MTR-6" value="Gérer les outils" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="242" y="-3260" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QV0GpsqDu3hCWvN-3MTR-7" value="Surveiller l&#39;application" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QV0GpsqDu3hCWvN-3MTR-7" value="Gérer les VMs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="242" y="-3160" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QV0GpsqDu3hCWvN-3MTR-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" target="QV0GpsqDu3hCWvN-3MTR-5">
@@ -946,7 +946,7 @@
           <mxGeometry x="553" y="-3160" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QV0GpsqDu3hCWvN-3MTR-26" value="UC - Configuration" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=30;" vertex="1" parent="1">
-          <mxGeometry x="30" y="-3490" width="760" height="420" as="geometry" />
+          <mxGeometry x="20" y="-3490" width="760" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
