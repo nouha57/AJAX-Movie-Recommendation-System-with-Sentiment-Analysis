@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T11:41:24.488Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DBneB1kojbLLneNj3V2d" version="20.2.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-23T11:45:42.678Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fZtLISKC93gUM1WKKRLL" version="20.2.6" type="github" pages="6">
   <diagram id="shwt-UwQIRlnDQt5FEmr" name="Page-1">
     <mxGraphModel dx="1137" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -848,7 +848,7 @@
         <mxCell id="QV0GpsqDu3hCWvN-3MTR-4" value="Opérationnel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="-3270" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QV0GpsqDu3hCWvN-3MTR-5" value="Mettre en place un cluster&amp;nbsp;&lt;br&gt;d&#39;orchestration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QV0GpsqDu3hCWvN-3MTR-5" value="Mettre en place le cluster&amp;nbsp;&lt;br&gt;d&#39;orchestration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="242" y="-3390" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QV0GpsqDu3hCWvN-3MTR-6" value="Gérer les outils" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -946,7 +946,7 @@
           <mxGeometry x="553" y="-3160" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QV0GpsqDu3hCWvN-3MTR-26" value="UC - Configuration" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=30;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-3490" width="760" height="420" as="geometry" />
+          <mxGeometry x="20" y="-3480" width="760" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -965,13 +965,13 @@
         <mxCell id="uOmpYMdlMMt_6nraRlvM-33" value="Administrateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="64" y="-3240" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uOmpYMdlMMt_6nraRlvM-34" value="Gérer des VMs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uOmpYMdlMMt_6nraRlvM-34" value="Gérer les VMs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="-3340" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uOmpYMdlMMt_6nraRlvM-35" value="Gérer les outils" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uOmpYMdlMMt_6nraRlvM-35" value="Gérer des outils" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="-3220" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uOmpYMdlMMt_6nraRlvM-36" value="Gérer les comptes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uOmpYMdlMMt_6nraRlvM-36" value="Gérer des comptes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="-3120" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uOmpYMdlMMt_6nraRlvM-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1">
