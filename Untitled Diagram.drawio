@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T11:00:12.702Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fMSCxQ7yY_VYJ8k4AtC3" version="20.2.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-23T11:02:13.812Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="CnD2errYBYYiYQQW31AH" version="20.2.6" type="github" pages="6">
   <diagram id="shwt-UwQIRlnDQt5FEmr" name="Page-1">
     <mxGraphModel dx="1137" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -314,11 +314,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PjNGCH7ikaBztpw5diRe-12" value="Gérer le fichier de déploiement de l&#39;application" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="-1110" width="180" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="XNAvpIbL3rStw8ZmLhLa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-390" width="630" height="520" as="geometry" />
+          <mxGeometry x="160" y="-1130" width="640" height="610" as="geometry" />
         </mxCell>
         <mxCell id="XNAvpIbL3rStw8ZmLhLa-2" value="Opérationnel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="-974" width="30" height="60" as="geometry" />
@@ -365,10 +362,10 @@
             <mxPoint x="224.999999999995" y="-874.5900000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XNAvpIbL3rStw8ZmLhLa-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="PjNGCH7ikaBztpw5diRe-12">
+        <mxCell id="XNAvpIbL3rStw8ZmLhLa-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="293" y="-994" as="sourcePoint" />
-            <mxPoint x="430" y="-1080" as="targetPoint" />
+            <mxPoint x="440.0000000000018" y="-1085" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XNAvpIbL3rStw8ZmLhLa-14" value="&amp;lt;&amp;lt; Include &amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="XNAvpIbL3rStw8ZmLhLa-13">
@@ -457,6 +454,12 @@
         </mxCell>
         <mxCell id="XNAvpIbL3rStw8ZmLhLa-33" value="Exposer l&#39;URL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="-784" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BJmcd54GdTRjDwyps5ot-1" value="Gérer le fichier de déploiement de l&#39;application" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-1110" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uqQXXGvEaO6TyPgA05RO-1" value="UC - Déploiement Continu&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=30;" vertex="1" parent="1">
+          <mxGeometry y="-1150" width="820" height="650" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
